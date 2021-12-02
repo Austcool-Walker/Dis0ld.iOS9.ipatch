@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+   <key>title</key>
+      <string>iWebBoost</string>
+   <key>entry</key>
+      <dict>
+         <key>cell</key>
+            <string>PSLinkCell</string>
+         <key>icon</key>
+            <string>/Library/PreferenceBundles/iWebBoost.bundle/Icon_settings.png</string>
+         <key>label</key>
+            <string>iWebBoost</string>
+      </dict>
+   <key>items</key>
+      <array>
+         <dict>
+            <key>cell</key>
+               <string>PSGroupCell</string>
+            <key>footerText</key>
+               <string>Set to OFF to disable iWebBoost. To take effect you need to kill and restart running apps or respring. Although this is not very comfortable any different implementation would reduce overall system performance.</string>
+         </dict>
+         <dict>
+            <key>cell</key>
+               <string>PSSwitchCell</string>
+            <key>default</key>
+               <true/>
+            <key>defaults</key>
+               <string>com.spiritoflogic.iWebBoost</string>
+            <key>key</key>
+               <string>enabled</string>
+            <key>label</key>
+               <string>iWebBoost</string>
+         </dict>
+      </array>
+</dict>
+</plist>
