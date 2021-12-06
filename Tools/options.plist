@@ -5,7 +5,7 @@
 	<key>RESTORE_SYMBOLS</key>
 	<false/>
 	<key>CREATE_IPA_FILE</key>
-	<false/>
+	<true/>
 	<key>IGNORE_UI_SUPPORTED_DEVICES</key>
 	<false/>
 	<key>REMOVE_WATCHPLACEHOLDER</key>
